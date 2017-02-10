@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="opening-the-sample-sapui5-site;opening-and-navigating-through-the-site" tests="3" failures="0" skipped="3">
+        <properties>
+            <property name="URI" value="C:/Users/chara/OneDrive/Documents/NetBeansProjects/RUCM_Project/features/openpage.feature">
+            </property>
+        </properties>
+        <testcase name="Given i can open the website" classname="opening-the-sample-sapui5-site;opening-and-navigating-through-the-site">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When i click on the navigation 2 link" classname="opening-the-sample-sapui5-site;opening-and-navigating-through-the-site">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then i should be taken to that website" classname="opening-the-sample-sapui5-site;opening-and-navigating-through-the-site">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="searching-for-vote-cards-app;google-search-for-vote-cards-app" tests="2" failures="1" skipped="1">
+        <properties>
+            <property name="URI" value="C:/Users/chara/OneDrive/Documents/NetBeansProjects/RUCM_Project/features/search.feature">
+            </property>
+        </properties>
+        <testcase name="When I search Google for &quot;itunes vote cards app&quot;" classname="searching-for-vote-cards-app;google-search-for-vote-cards-app" time="4.021684148">
+            <failure message="TypeError: page.googleSearch.preformSearch is not a function">TypeError: page.googleSearch.preformSearch is not a function
+    at C:\Users\chara\OneDrive\Documents\NetBeansProjects\RUCM_Project\step-definitions\google-search-steps.js:8:34
+    at ManagedPromise.invokeCallback_ (C:\Users\chara\OneDrive\Documents\NetBeansProjects\RUCM_Project\node_modules\selenium-webdriver\lib\promise.js:1366:14)
+    at TaskQueue.execute_ (C:\Users\chara\OneDrive\Documents\NetBeansProjects\RUCM_Project\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\Users\chara\OneDrive\Documents\NetBeansProjects\RUCM_Project\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\Users\chara\OneDrive\Documents\NetBeansProjects\RUCM_Project\node_modules\selenium-webdriver\lib\promise.js:2813:27)
+    at C:\Users\chara\OneDrive\Documents\NetBeansProjects\RUCM_Project\node_modules\selenium-webdriver\lib\promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)</failure>
+        </testcase>
+        <testcase name="Then I should see some results" classname="searching-for-vote-cards-app;google-search-for-vote-cards-app">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+</testsuites>
